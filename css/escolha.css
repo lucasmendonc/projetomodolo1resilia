@@ -1,0 +1,80 @@
+body{
+     background-color: black;   
+    background-image:  url(..\imagenseGifs\vingador.png);
+    background-position: left;
+    background-size: cover;
+        
+    }
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    
+
+}
+
+.personagem{
+    
+    width: 15%;
+    height: 20%;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;   
+    
+}
+.personagem img{
+    width: 100%;  
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 30px;
+    
+}
+/*referente a estilização do nome das personalidades*/
+.personagemclick{
+    color: red;
+    text-decoration: none;
+}
+
+p{
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;    
+}
+/*primeirop é referente a estilização da caixa cinza onde se encontra o paragrafo*/
+
+.primeirop{
+    background-image: url(..\imagenseGifs\bg.jpg);
+    padding: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: 0 25%;
+    border-radius:10%;
+}
+
+
+
+footer p {
+    font-size: 20px;
+    color: white;
+}
+
+
+/*efeito do botão que escolhe cada personalidade*/
+
+.personagemclick:hover{
+    
+    border-radius: 10%;
+    background-image: url(..\imagenseGifs\fogo.gif);
+}
+
+.personagemclick:active{
+    color: blue;
+}

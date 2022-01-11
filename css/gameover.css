@@ -1,0 +1,45 @@
+body{
+    background:black ;
+    background-image: url(fundovingadorfim.png);
+    
+}
+.container{
+    display: inline-block;
+    width: 20%;
+    
+}
+img{
+   
+   margin-left: 150%;
+   margin-top: 80%;
+   
+}
+
+button{
+    margin-left: 18.8%;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    background-image: url(fogo.gif);
+    
+}
+a {
+    text-decoration: none;
+    color:white;
+    text-transform: uppercase;
+  
+}
+/*efeitos no botão*/
+
+button:hover{
+    font-size: 20.5px;
+    
+}
+
+a:hover{
+    color: red;
+    }
+a:active{
+    color:blue;
+
+}
