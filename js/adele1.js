@@ -4,7 +4,7 @@ var pergunta = prompt("1-Colocar uma blusa de onça, um sapato de estampa de vac
 while (pergunta != 2 || pergunta != 1) {
 
 if (pergunta == 2) {
-    window.location.href = "../adele/adele2.html";
+    window.location.href = "../adele/adele3.html";
 /*para finalizar e direcionar para o html acima caso escolha 1 ---> */ 
    break;
   } else if (pergunta == 1) {
