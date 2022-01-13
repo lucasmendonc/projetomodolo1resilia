@@ -4,12 +4,12 @@ var pergunta = prompt("1- Dançar Single Ladies e tirar foto com os fãs. \n2- N
 while (pergunta != 2 || pergunta != 1) {
 
   if (pergunta == 1) {
-      window.location.href = "C:/Users/home/Desktop/projetoModulo1/beyonce/beyonce3.html";
+      window.location.href = "../beyonce/beyonce3.html";
       
   /*para finalizar e direcionar para o html acima caso escolha 1 ---> */ 
      break;
     } else if (pergunta == 2) {
-      window.location.href = "C:/Users/home/Desktop/projetoModulo1/gameover/gameover.html";
+      window.location.href = "../gameover/gameover.html";
       
    /*para finalizar e direcionar para o html acima caso escolha 2 ---> */   
      break;

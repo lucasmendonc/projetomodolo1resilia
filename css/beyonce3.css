@@ -1,6 +1,6 @@
 body{
      background-color: black;   
-    background-image:  url(../imagensegifs/fundovingador3.png);
+    background-image:  url("../imagensegifs/fundovingador3.png");
     background-position: left;
     
         
@@ -53,7 +53,7 @@ p{
 }
 
 .paragrafo{
-    background-image: url(../imagensegifs/bg.jpg);
+    background-image: url("../imagensegifs/bg.jpg");
     margin-top: -10px;
     border-radius: 10%;
     padding-bottom: 20px;
@@ -82,7 +82,7 @@ footer p {
 .personagemclick:hover{
     
     border-radius: 10%;
-    background-image: url(fogo.gif);
+    background-image: url("./imagemegif/fogo.gif");
 }
 
 .personagemclick:active{

@@ -4,11 +4,11 @@ var pergunta = prompt("1- Lançar um agudo dizendo 'o estado é laicoo' \n2- Diz
 while (pergunta != 1 || pergunta != 2) {
 
 if (pergunta == 1) {
-    window.location.href = "C:/Users/home/Desktop/projetoModulo1/adele/adele1.html";
+    window.location.href = "../adele/adele2.html";
 /*para finalizar e direcionar para o html acima caso escolha 1 ---> */ 
    break;
   } else if (pergunta == 2) {
-    window.location.href = "C:/Users/home/Desktop/projetoModulo1/gameover/gameover.html";
+    window.location.href = "../gameover/gameover.html";
     
  /*para finalizar e direcionar para o html acima caso escolha 2 ---> */   
    break;
