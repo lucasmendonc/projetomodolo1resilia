@@ -1,2 +1,0 @@
-function linhaAsteristico(2)
-

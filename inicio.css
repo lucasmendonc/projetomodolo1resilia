@@ -2,7 +2,7 @@
 /*cor e imagem de fundo*/
 
 body{
-    background: black url("../imagensegifs/vingador.png") no-repeat right top fixed
+    background: black url("../projetoModulo1/vingador.png") no-repeat right top fixed
 
 }
 
@@ -28,7 +28,7 @@ p{
 
 /*destinado a formatação do paragrafo */
 .paragrafo{
-    background-image: url("../imagensegifs/bg.jpg");
+    background-image: url("../projetoModulo1/bg.jpg");
     color: white;
     opacity: 85%;
     padding: 30px;
@@ -45,7 +45,7 @@ p strong{
 }
 
 .button{
-    background-image:url("../imagensegifs/fogo.gif"); 
+    background-image:url("../projetoModulo1/fogo.gif"); 
     margin-left: 45%;
     width: 120px;
     height: 80px;
