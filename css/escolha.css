@@ -1,6 +1,6 @@
 body{
      background-color: black;   
-    background-image:  url(..\imagenseGifs\vingador.png);
+    background-image:  url("../imagenseGifs/vingador.png");
     background-position: left;
     background-size: cover;
         
@@ -13,8 +13,7 @@ body{
     align-items: center;
     padding-bottom: 30px;
     
-
-}
+    }
 
 .personagem{
     
@@ -32,10 +31,12 @@ body{
 h1 {
     color: white;
     font-size: 60px;
+    font-style: italic;
     text-align: center;
     padding: 30px;
     
 }
+
 /*referente a estilização do nome das personalidades*/
 .personagemclick{
     color: red;
@@ -51,14 +52,18 @@ p{
 /*primeirop é referente a estilização da caixa cinza onde se encontra o paragrafo*/
 
 .primeirop{
-    background-image: url(..\imagenseGifs\bg.jpg);
+    background-image: url("../imagenseGifs/bg.jpg");
     padding: 30px;
     padding-bottom: 50px;
     padding-top: 50px;
     margin: 0 25%;
     border-radius:10%;
 }
-
+/*estilização do texto click em um dos nomes!*/
+p strong{
+ font-size: 35px;
+ color: yellow;
+}
 
 
 footer p {
@@ -72,7 +77,8 @@ footer p {
 .personagemclick:hover{
     
     border-radius: 10%;
-    background-image: url(..\imagenseGifs\fogo.gif);
+    background-image: url("../imagenseGifs/fogo.gif");
+    padding: 5px;
 }
 
 .personagemclick:active{

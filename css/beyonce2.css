@@ -1,8 +1,9 @@
 body{
      background-color: black;   
-    background-image:  url(../imagensegifs/fundovingador1.png);
-    background-position: left;
-            
+    background-image:  url("../imagensegifs/fundovingador2.png");
+   
+    
+        
     }
 
 .container{
@@ -28,7 +29,6 @@ body{
 .personagem img{
     width: 100%;  
     padding-top: 50px;
-    
 }
 
 h1 {
@@ -51,6 +51,10 @@ p{
     padding-top: 30px;    
 }
 
+p strong{
+    color: yellow;
+}
+
 .paragrafo{
     background-image: url(../imagensegifs/bg.jpg);
     margin-top: -10px;
@@ -67,9 +71,6 @@ button{
     margin-top: 1px;
     
 }
-p strong{
-    color: red;
-}
 
 footer p {
     font-size: 20px;
@@ -81,7 +82,7 @@ footer p {
 .personagemclick:hover{
     
     border-radius: 10%;
-    
+    background-image: url(fogo.gif);
 }
 
 .personagemclick:active{

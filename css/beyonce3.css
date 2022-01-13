@@ -1,9 +1,11 @@
 body{
      background-color: black;   
-    background-image:  url(../imagensegifs/fundovingador1.png);
+    background-image:  url(../imagensegifs/fundovingador3.png);
     background-position: left;
-            
+    
+        
     }
+
 
 .container{
     display: flex;
@@ -28,7 +30,6 @@ body{
 .personagem img{
     width: 100%;  
     padding-top: 50px;
-    
 }
 
 h1 {
@@ -68,7 +69,7 @@ button{
     
 }
 p strong{
-    color: red;
+    color: green;
 }
 
 footer p {
@@ -81,7 +82,7 @@ footer p {
 .personagemclick:hover{
     
     border-radius: 10%;
-    
+    background-image: url(fogo.gif);
 }
 
 .personagemclick:active{

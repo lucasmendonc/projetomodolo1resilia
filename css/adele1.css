@@ -1,6 +1,6 @@
 body{
     background-color: black;   
-   background-image:  url(../imagensegifs/fundovingador1.png);
+   background-image:  url("../imagensegifs/fundovingador2.png");
    background-position: left;
            
    }
@@ -28,7 +28,7 @@ body{
 .personagem img{
    width: 100%;  
   
-   border:rgb(168, 10, 10) solid 5px;
+   border:rgb(219, 219, 9) solid 5px;
    border-radius: 0 10%;
 }
 
@@ -67,7 +67,7 @@ button{
    
 }
 p strong{
-   color: rgb(128, 4, 4);
+   color: rgb(219, 219, 9);
 }
 
 footer p {

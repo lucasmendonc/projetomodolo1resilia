@@ -1,6 +1,6 @@
 body{
     background-color: black;   
-   background-image:  url(../imagensegifs/fundovingador1.png);
+   background-image:  url(../imagensegifs/fundovingador3.png);
    background-position: left;
            
    }
@@ -15,7 +15,6 @@ body{
    
 }
 
-
 .personagem{
    
    width: 25%;
@@ -27,10 +26,10 @@ body{
 }
 .personagem img{
    width: 100%;  
-  
-   border:rgb(168, 10, 10) solid 5px;
+   border:rgb(5, 110, 19) solid 5px;
    border-radius: 0 10%;
-}
+   margin-top: 15%;
+   }
 
 h1 {
    color: white;
@@ -39,8 +38,6 @@ h1 {
    padding: 30px;
    
 }
-
-
 
 p{
    color: blanchedalmond;
@@ -57,7 +54,6 @@ p{
  
 }
 
-
 button{
    width: 40%;
    padding: 1% ;
@@ -67,7 +63,7 @@ button{
    
 }
 p strong{
-   color: rgb(128, 4, 4);
+   color: rgb(5, 110, 19);
 }
 
 footer p {

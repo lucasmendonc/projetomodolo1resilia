@@ -1,6 +1,6 @@
 body{
     background:black ;
-    background-image: url(fundovingadorfim.png);
+    background-image: url("../imagensegifs/fundovingadorfim.png");
     
 }
 .container{
@@ -20,7 +20,7 @@ button{
     padding: 15px;
     font-size: 20px;
     border-radius: 15px;
-    background-image: url(fogo.gif);
+    background-image: url("../imagensegifs/fogo.gif");
     
 }
 a {

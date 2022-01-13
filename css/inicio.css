@@ -1,68 +1,82 @@
+
+/*cor e imagem de fundo*/
+
 body{
-    background: black;
-    background-image: url(https://imgbox.com/gallery/edit/bseHRbJIVE/ndwOrhsKycKTWKGt);
+    background: black url("../imagensegifs/vingador.png") no-repeat right top fixed
 
 }
 
+/*letreiro (caverna do vingador */
 h1 {
     color: white;
-    font-size: 200px;
+    font-size: 60px;
+    font-style: italic;
     text-align: center;
-    padding: 40px;
+    padding-bottom: 30px;
+    
     
 }
 
+
 p{
-    color: blanchedalmond;
+    color: white;
     text-align: center;
     font-size: 30px;
     padding-top: 30px;
     
 }
-.primeirop{
-    
+
+/*destinado a formatação do paragrafo */
+.paragrafo{
+    background-image: url("../imagensegifs/bg.jpg");
+    color: white;
+    opacity: 85%;
     padding: 30px;
     padding-bottom: 100px;
     padding-top: 85px;
     margin: 0 25%;
     border-radius:10%;
+    
 }
 
+/* colocando cor no "mestre dos mágos"*/
 p strong{
     color: rgb(216, 37, 37);
 }
 
 .button{
-    background-image:url(..\imagenseGifs\fogo.gif); 
+    background-image:url("../imagensegifs/fogo.gif"); 
     margin-left: 45%;
     width: 120px;
     height: 80px;
     border-radius: 20%;
     margin-top: 15px;
-    
+    font-size: 25px;
+   
+/*dedicado apenas a formatação da fonte*/    
 }
-button p{
-    
+button a{
+    color: white;
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 18px;
     margin-top: 0 ;
+    font-size: 25px;
     
 }
-a {
-    text-decoration: none;
 
-}
 footer p {
     font-size: 20px;
     color: white;
     padding-top: 100px;
 }
 
+/*efeitos do botão*/
 .button:hover{
     color: red;
     font-size: 20px;
     background: red;
 }
-.button p:active{
+.button a:active{
     color: rgb(24, 80, 211);
 }
